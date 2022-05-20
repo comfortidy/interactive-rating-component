@@ -1,0 +1,186 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: Overpass;
+    text-align: center;
+    flex-direction: column;
+
+}
+.rating-card{
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    height: auto;
+    border-radius: 50px;
+    padding: 20px 25px;
+}
+.rating-card-title{
+    color:  hsl(0, 0%, 100%);
+    text-align: start;
+    
+}
+.rating-card-content{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: start;
+}
+.star{
+    background-color: hsl(213, 20%, 22%);
+    padding: 15px;
+    border-radius: 100%;
+    
+    
+    
+
+}
+.rate-numbers{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+    
+
+.first{
+   padding: 18px 23px; 
+   border-radius: 70px;
+   background-color: hsl(213, 20%, 22%);
+   cursor: pointer;
+   
+}
+.first:hover{
+    background-color:  hsl(25, 97%, 53%);
+}
+.second{
+    padding: 18px 23px; 
+    border-radius: 70px;
+    background-color: hsl(213, 20%, 22%);
+    cursor: pointer;
+ }
+ .second:hover{
+     background-color: hsl(25, 97%, 53%);
+ }
+.third{
+    padding: 18px 23px; 
+    border-radius: 70px;
+    background-color: hsl(213, 20%, 22%);
+    cursor: pointer;
+ }
+ .third:hover{
+     background-color: hsl(25, 97%, 53%);
+ }
+.fourth{
+    padding: 18px 23px; 
+    border-radius: 70px;
+    background-color: hsl(213, 20%, 22%);
+    cursor: pointer;
+}
+.fourth:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.fifth{
+    padding: 18px 23px; 
+    border-radius: 70px;
+    background-color: hsl(213, 20%, 22%);
+    cursor: pointer;
+ }
+ .fifth:hover{
+     background-color: hsl(25, 97%, 53%);
+ }
+
+
+ .submit-container{
+    color: hsl(0, 0%, 100%);
+    padding:  0.1rem 0.1rem;
+
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border-radius: 40px;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+
+    
+}
+.submit-container:hover{
+    color:  hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.form{
+    width: 100%;
+
+}
+.form div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-radio-input{
+    display: none;
+    }
+.form-radio-label{
+    display: block;
+    cursor: pointer;
+    margin-right: 55px;
+    margin-bottom: 50px;
+
+}
+.form-radio-button{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 100%;
+    
+    padding: 2px 2px;
+}
+.form-radio-button::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsl(216, 12%, 54%);
+    opacity: 0;
+}
+.form-radio-button div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+
+}
+.form-radio-button:hover{
+    background-color: hsl(25, 97%, 53%);
+}*/
+
+
