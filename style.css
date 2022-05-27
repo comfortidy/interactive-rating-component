@@ -15,6 +15,7 @@ body{
     height: auto;
     border-radius: 50px;
     padding: 20px 25px;
+    align-items: flex-start;
 }
 .rating-card-title{
     color:  hsl(0, 0%, 100%);
@@ -62,6 +63,10 @@ body{
 .first:hover{
     background-color:  hsl(25, 97%, 53%);
 }
+.first:active{
+    background-color: hsl(216, 12%, 54%);
+}
+
 .second{
     padding: 18px 23px; 
     border-radius: 70px;
@@ -70,6 +75,9 @@ body{
  }
  .second:hover{
      background-color: hsl(25, 97%, 53%);
+ }
+ .second:active{
+    background-color: hsl(216, 12%, 54%);
  }
 .third{
     padding: 18px 23px; 
@@ -80,6 +88,9 @@ body{
  .third:hover{
      background-color: hsl(25, 97%, 53%);
  }
+ .third:active{
+    background-color: hsl(216, 12%, 54%);
+ }
 .fourth{
     padding: 18px 23px; 
     border-radius: 70px;
@@ -89,6 +100,13 @@ body{
 .fourth:hover{
     background-color: hsl(25, 97%, 53%);
 }
+.fourth:active{
+    background-color: hsl(216, 12%, 54%);  
+}
+
+
+
+
 .fifth{
     padding: 18px 23px; 
     border-radius: 70px;
@@ -98,31 +116,59 @@ body{
  .fifth:hover{
      background-color: hsl(25, 97%, 53%);
  }
+ .fifth:active{
+     background-color: hsl(216, 12%, 54%);
+ }
 
 
- .submit-container{
+ .submit-button{
     color: hsl(0, 0%, 100%);
     padding:  0.1rem 0.1rem;
 
     background-color: hsl(25, 97%, 53%);
     width: 100%;
     border-radius: 40px;
-    align-items: center;
+    text-align: center;
     font-size: 18px;
     cursor: pointer;
     border: none;
-
-    
+    height: 46px;
+  
 }
-.submit-container:hover{
+.submit-button:hover{
     color:  hsl(25, 97%, 53%);
     background-color: hsl(0, 0%, 100%);
     
 }
 
 
-
-
+.thank-you-card{
+    margin-top: 40px;
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    height: auto;
+    border-radius: 50px;
+    padding: 20px 25px;
+    display: none;
+    
+}
+.title{
+   color: hsl(25, 97%, 53%);
+   background-color: hsl(213, 20%, 22%); 
+   border-radius: 10px;
+   padding: 7px 0.1px;
+   padding-right: 1px;
+   margin-top: 30px;
+   width: 210px;
+   align-items: center;
+}
+.heading{
+    color:  hsl(0, 0%, 100%);
+    font-family: overpass;
+}
+.content{
+    color: hsl(217, 12%, 63%);
+}
 
 
 
