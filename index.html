@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
   <link rel="stylesheet" href="style.css">
   <script src="index.js"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   Feel free to remove these styles or customise in your own stylesheet 👍 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -30,33 +30,10 @@
     <div class="first">4</div>
     <div class="first">5</div>
   </div>
-
-
-
-
-
-
-
-
-
-  
   <div class="submit-button" onclick="submit()">
     <p>Submit</p>
   </div>
 </div>
-
-
-  
-
- 
-
-  
-  
-  
-
-  <!-- Rating state end -->
-
-   <!--Thank you state start--> 
   <div class="thank-you-card" id="thank-you-card">
     <image src="images/illustration-thank-you.svg"></image>
     <div class="title">You selected 4 out of 5</div>
@@ -66,29 +43,70 @@
     </p>
   
   </div>
-  
-  
-
-  
-
-  
-   <!--Thank you state end-->
-
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Comfort Sunday</a>.
+  </div>
+</body>
+</html>-->
 
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
 
+</head>
+<body>
+  <div>
 
+   <!-- Rating state start -->
+    <div class="rating-card" id="rating-card">
+      <image src="images/icon-star.svg" class="star"></image>
+      <h1 class="rating-card-title"> How did we do?</h1>
+      <p class="rating-card-content">Please let us know how we did with your support <br>request. All feedback is appreciated 
+        to help us</br> improve our offering!</br></p>
+    <div class="rate-numbers">
+      <button type="button" class="first" value="1" onclick="submit(this)">1</button>
+      <button type="button" class="first" value="2" onclick="submit(this)">2</button>
+      <button type="button" class="first" value="3" onclick="submit(this)">3</button>
+      <button type="button" class="first" value="4" onclick="submit(this)">4</button>
+      <button type="button" class="first" value="5" onclick="submit(this)">5</button>
+    </div>
+    <div class="submit-button" onclick="submit()">
+      <p>Submit</p>
+    </div>
+    </div>  
+   <!-- Rating state end -->
 
+   <!--Thank you state start--> 
+    <div class="thank-you-card" id="thank-you-card">
+      <image src="images/illustration-thank-you.svg"></image>
+      <div class="title">You selected <span id="selected">0</span> out of 5</div>
+      <h1 class="heading">Thank you!</h1>
+      <p class="content">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+   <!--Thank you state end-->
 
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Comfort Sunday</a>.
+    </div>
 
-
+  </div>
+</body>
+</html>
 
 
 
@@ -1041,6 +1059,4 @@
 
 
 
-  </div>
-</body>
-</html>
+ 

@@ -1,11 +1,11 @@
-let rateNumbers = document.querySelectorAll(".first").length;
-let ratingCard = document.querySelector(".rating-card")
+/*const rateNumbers = document.querySelectorAll(".first").length;
+const ratingCard = document.querySelector(".rating-card")
 
-let ratingValue = 0;
+const ratingValue = 0;
 
 
 
-/*rateNumbers.forEach((number) => {
+/rateNumbers.forEach((number) => {
   number.addEventListener('click', (e) => {
     console.log(ratingValue);
     ratingValue = e.target.value;
@@ -13,21 +13,28 @@ let ratingValue = 0;
     console.log("working");
     
   })
-});*/
+});
 
 console.log(rateNumbers);
-/*for (var i = 0; i < rateNumbers ; i++) {
+for (var i = 0; i < rateNumbers ; i++) {
   document.querySelectorAll(".first")[i].addEventListener("click", function() {
       alert("Button Clicked");
   });
 }
-
+}
 function submit() {
   document.getElementById("rating-card").style.display = "none";
  document.getElementById("thank-you-card").style.display = "block";
-  
- }*/
-
+} */ 
+ 
+let ratingCard = document.querySelector(".rating-card");
+let selected = document.getElementById("selected");
+function submit(objButton) {
+  selectedValue = objButton.value;
+  document.getElementById("selected").innerHTML = selectedValue;
+  document.getElementById("rating-card").style.display = "none";
+  document.getElementById("thank-you-card").style.display = "block";
+ }
 
 
 
